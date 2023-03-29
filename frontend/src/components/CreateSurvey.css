@@ -1,0 +1,133 @@
+.form-container {
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  margin-top: 55px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(182, 180, 180);
+  margin-bottom: 35px;
+}
+
+.header-button {
+  display: flex;
+  margin-right: 20px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.form-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body-left,
+.body-right {
+  width: 425px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.body-left {
+  border-right: 2px solid rgb(182, 180, 180);
+}
+
+.header-button button {
+  position: relative;
+  top: 18px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.header-button :nth-child(2) {
+  padding: 5px 18px;
+}
+
+.form-date {
+  display: flex;
+}
+
+.form-name label,
+input {
+  display: block;
+  margin: 5px;
+}
+
+.form-desc label,
+textarea {
+  display: block;
+  margin: 5px;
+}
+
+.form-survey label,
+select {
+  display: block;
+  margin: 5px;
+}
+
+.start-date label,
+input {
+  margin: 5px;
+}
+
+.form-date {
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+}
+
+.end-date label,
+input {
+  margin: 5px;
+}
+
+.start-date input {
+  padding: 7px;
+}
+
+.end-date input {
+  padding: 7px;
+}
+
+.upload-img {
+  margin: 5px;
+}
+
+.form-desc textarea {
+  width: 300px;
+  height: 50px;
+}
+
+.form-name input {
+  width: 300px;
+  padding: 7px;
+}
+
+/* .header-button :nth-child(1) {
+    border: 2px solid #278DF1;
+    color: #278DF1;
+    border-radius: 4px;
+    padding: 0px 19px;
+    cursor: pointer;
+} */
+/* 
+.header-button :nth-child(2) {
+    background-color: #278DF1;
+    border-style: none;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 30px;
+    cursor: pointer;
+} */
+.text-dec {
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+.survey-details {
+  border: 1px solid black;
+}
+
+.navbar {
+  border: 1px solid rgb(194, 212, 214);
+}
+.w-10 {
+  width: 4%;
+  height: 900px;
+}
+.w-90 {
+  width: 96%;
+}
+.back-blue {
+  background-color: blue;
+}
+.white-color {
+  color: white;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.m-0 {
+  margin: 0;
+  padding: 0;
+}
+.email {
+  padding: 0.5em 1em;
+}
+.hover:hover {
+  box-shadow: 0 0 5px 0 #a7aaaa inset, 0 0 20px 2px #c9cbcb;
+  /* border: 1px solid blue; */
+}
